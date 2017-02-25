@@ -1,0 +1,10 @@
+D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\bin\Release\ToASF.exe
+D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\bin\Release\ToASF.pdb
+D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\bin\Release\en-001\ToASF.resources.dll
+D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Release\ToASF.Form1.resources
+D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Release\ToASF.Properties.Resources.resources
+D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Release\ToASF.Form1.en-001.resources
+D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Release\ToASF.csproj.GenerateResource.Cache
+D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Release\en-001\ToASF.resources.dll
+D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Release\ToASF.exe
+D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Release\ToASF.pdb
