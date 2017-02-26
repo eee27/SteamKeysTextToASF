@@ -8,3 +8,4 @@ D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Release\ToA
 D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Release\en-001\ToASF.resources.dll
 D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Release\ToASF.exe
 D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Release\ToASF.pdb
+D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Release\ToASF.csprojResolveAssemblyReference.cache

@@ -26,7 +26,7 @@ namespace ToASF
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedIndex == 1)
+            if (comboBox1.SelectedIndex == 0)
             {
                 button2.Enabled = false;
             }
@@ -117,6 +117,10 @@ namespace ToASF
         private void button5_Click(object sender, EventArgs e)
         {
             MessageBox.Show("有Bug请联系我!\n" + "SteamId:  eee27\n" + "http://steamcommunity.com/id/lb-eee27/");
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
         }
     }
 }
