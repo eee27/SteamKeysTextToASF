@@ -29,10 +29,12 @@ namespace ToASF
             if (comboBox1.SelectedIndex == 0)
             {
                 button2.Enabled = false;
+                textBox1.Enabled = false;
             }
             else
             {
                 button2.Enabled = true;
+                textBox1.Enabled = true;
             }
         }
 
