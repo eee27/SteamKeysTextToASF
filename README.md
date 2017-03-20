@@ -1,7 +1,7 @@
 # ToASF
 
-[![GitHub release](https://img.shields.io/github/release/eee27/ToASF.svg)](https://github.com/eee27/ToASF/releases/tag/V0.1)
-[![Github Releases (by Release)](https://img.shields.io/github/downloads/eee27/latest/total.svg)](https://github.com/eee27/ToASF/releases/latest)
+[![GitHub release](https://img.shields.io/github/release/eee27/ToASF.svg?lable=Latest)](https://github.com/eee27/ToASF/releases/tag/V0.1)
+[![Github Releases (by Release)](https://img.shields.io/github/downloads/eee27/latest/total.svg?label=Downloads)](https://github.com/eee27/ToASF/releases/latest)
 
 ---
 
