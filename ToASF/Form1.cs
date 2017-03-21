@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 using System.Text.RegularExpressions;
+using System.Net;
+using System.Text;
+using System.IO;
+using Newtonsoft.Json.Linq;
+using System.Drawing;
 
 namespace ToASF
 {
@@ -24,7 +23,7 @@ namespace ToASF
             button2.Enabled = false;
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             if (comboBox1.SelectedIndex == 0)
             {
@@ -38,7 +37,7 @@ namespace ToASF
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             if (comboBox1.SelectedIndex == 1)
             {
@@ -52,13 +51,13 @@ namespace ToASF
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
             String inputString = GetTextFromClip();
             textBox1.Text = inputString;
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click_1(object sender, EventArgs e)
         {
             IDataObject iData = Clipboard.GetDataObject();
             if (textBox2.Text != null)
@@ -67,14 +66,14 @@ namespace ToASF
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click_1(object sender, EventArgs e)
         {
             textBox1.Text = null;
             textBox2.Text = null;
             button2.Enabled = false;
         }
 
-        /*--------------------------------------------------------------*/
+        /*---------------------------FUNCITON-----------------------------------*/
 
         private string GetTextFromClip()
         {
@@ -116,13 +115,45 @@ namespace ToASF
             textBox2.Text = outputString;
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        /*----------------------TAB2-------------------------------*/
+
+        private void button5_Click_1(object sender, EventArgs e)
         {
-            MessageBox.Show("有Bug请联系我!\n" + "SteamId:  eee27\n" + "http://steamcommunity.com/id/lb-eee27/");
+            string url = @"https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=37AAF2CF58E058F22B2C7C0D2047E45C&steamids=" + textBox3.Text;
+            ExtWebSource(GetWebSource(url));
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        /*----------------FUNCTION------------------*/
+
+        private string GetWebSource(string url)
         {
+            MessageBox.Show(url);
+            HttpWebRequest request;
+            request = (HttpWebRequest)WebRequest.Create(url);
+            request.Method = "GET";
+            HttpWebResponse response;
+            response = (HttpWebResponse)request.GetResponse();
+            StreamReader stream = new StreamReader(response.GetResponseStream(), Encoding.UTF8);
+            string responseText = stream.ReadToEnd();
+            stream.Close();
+            return responseText;
+        }
+
+        private void ExtWebSource(string jsonWebString)
+        {
+            JObject jObj = JObject.Parse(jsonWebString);
+
+            string steamId = (string)jObj["response"]["players"][0]["steamid"];
+            string personaName = (string)jObj["response"]["players"][0]["personaname"];
+            string profileUrl = (string)jObj["response"]["players"][0]["profileurl"];
+            string avatarUrl = (string)jObj["response"]["players"][0]["avatarmedium"];
+            string createTime = (string)jObj["response"]["players"][0]["createTime"];
+            string accountCountry = (string)jObj["response"]["players"][0]["loccountrycode"];
+
+            WebClient wc = new WebClient();
+            Image image = Image.FromStream(wc.OpenRead(avatarUrl));
+            pictureBox1.Image = image;
+            label4.Text = personaName;
         }
     }
 }

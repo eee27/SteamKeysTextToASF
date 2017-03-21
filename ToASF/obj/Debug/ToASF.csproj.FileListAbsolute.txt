@@ -9,3 +9,5 @@ D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Debug\ToASF
 D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Debug\ToASF.Form1.en-001.resources
 D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\bin\Debug\en-001\ToASF.resources.dll
 D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Debug\en-001\ToASF.resources.dll
+D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\bin\Debug\Newtonsoft.Json.dll
+D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\bin\Debug\Newtonsoft.Json.xml
