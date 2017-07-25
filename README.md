@@ -6,10 +6,12 @@
 ---
 
 ## About
-It is a small C# application can make you input text,choose Steam keys in it and auto transform them to ASF redeem format.
+A small C# application,choose text where Steam keys in it,it can auto transform them to ASF redeem format.
 It never connect to network and wont steal your Steam keys.
 
 ---
 
 ## How to use
 Choose text include keys,then Ctrl+C,then click "GO!" button.
+
+选中带key的文本,复制,点'Go',再点下面的复制到剪贴板,然后Steam跟你的bot小号说话:  !redeem 要激活的bot名 剪贴板里的key完事
