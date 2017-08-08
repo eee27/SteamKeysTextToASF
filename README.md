@@ -1,7 +1,7 @@
-# ToASF
+# SteamKeysTextToASF
 
-[![GitHub release](https://img.shields.io/badge/Version-0.1-blue.svg?style=flat)](https://github.com/eee27/ToASF/releases/tag/V0.1)
-[![Github download](https://img.shields.io/badge/Download-23KB-blue.svg?style=flat)](https://github.com/eee27/ToASF/releases/latest)
+[![GitHub release](https://img.shields.io/badge/Version-0.1-blue.svg?style=flat)](https://github.com/eee27/SteamKeysTextToASF/releases/tag/V0.1)
+[![Github download](https://img.shields.io/badge/Download-23KB-blue.svg?style=flat)](https://github.com/eee27/SteamKeysTextToASF/releases/latest)
 
 ---
 
