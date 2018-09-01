@@ -11,3 +11,18 @@ D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\bin\Debug\en-00
 D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\obj\Debug\en-001\ToASF.resources.dll
 D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\bin\Debug\Newtonsoft.Json.dll
 D:\Users\eee27\documents\Visual Studio 2015\Projects\ToASF\ToASF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\bin\Debug\ToASF.exe
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\bin\Debug\ToASF.pdb
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\bin\Debug\en-001\ToASF.resources.dll
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\obj\Debug\ToASF.csprojAssemblyReference.cache
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\obj\Debug\ToASF.Form1.resources
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\obj\Debug\ToASF.Properties.Resources.resources
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\obj\Debug\ToASF.Form1.en-001.resources
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\obj\Debug\ToASF.csproj.GenerateResource.cache
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\obj\Debug\ToASF.csproj.CoreCompileInputs.cache
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\obj\Debug\en-001\ToASF.resources.dll
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\obj\Debug\ToASF.csproj.CopyComplete
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\obj\Debug\ToASF.exe
+C:\Users\eee27\Source\Repos\SteamKeysTextToASF\ToASF\obj\Debug\ToASF.pdb

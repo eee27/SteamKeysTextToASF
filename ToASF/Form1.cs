@@ -47,7 +47,9 @@ namespace ToASF
             else
             {
                 String inputString = GetTextFromClip();
+                if(null!=inputString&&inputString.Length>1){
                 toAsfString(inputString);
+                }
             }
         }
 

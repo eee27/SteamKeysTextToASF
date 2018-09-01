@@ -107,7 +107,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(120, 40);
             this.button4.TabIndex = 19;
-            this.button4.Text = "重置";
+            this.button4.Text = "Reset";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
@@ -127,7 +127,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(120, 40);
             this.button3.TabIndex = 17;
-            this.button3.Text = "复制到剪贴板";
+            this.button3.Text = "ToClipboard";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
@@ -158,7 +158,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 40);
             this.button2.TabIndex = 14;
-            this.button2.Text = "读取剪贴板";
+            this.button2.Text = "ReadClipboard";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
@@ -196,8 +196,8 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.comboBox1.Items.AddRange(new object[] {
-            "直接读取剪贴板",
-            "手动输入"});
+            "AutoReadClipboard",
+            "InputYouself"});
             this.comboBox1.Location = new System.Drawing.Point(116, 12);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(130, 25);
